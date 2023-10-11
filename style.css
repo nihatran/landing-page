@@ -2,6 +2,9 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Roboto, sans-serif;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -107,7 +110,6 @@ img {
 .images-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 52px;
 }
 
@@ -128,3 +130,32 @@ img {
 }
 
 
+.bottom-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    font-family: Roboto, sans-serif;
+}
+
+.bottom-content-container {
+    display: flex;
+    flex-direction: column;
+    width: 1250px;
+}
+
+.quote {
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.name {
+    align-self: flex-end;
+    margin: 0 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
