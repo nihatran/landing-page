@@ -2,9 +2,6 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Roboto, sans-serif;
-
-    display: flex;
-    flex-direction: column;
 }
 
 .header {
@@ -67,7 +64,7 @@ h1 {
     font-size: 18px; 
 }
 
-button {
+.hero-text button {
     align-self: flex-start;
     margin-top: 12px;
     padding: 8px 32px;
@@ -158,4 +155,47 @@ img {
     margin: 0 30px;
     font-size: 28px;
     font-weight: bold;
+}
+
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.cta-section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 130px;
+    width: 1150px;
+    border-radius: 20px;
+    background-color: #3882F6;
+
+}
+
+.cta {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
+
+.sign-up {
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.cta-section-container button {
+    padding: 6px 32px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
 }
